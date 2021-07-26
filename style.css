@@ -330,3 +330,16 @@ font-size: 1.5rem;
                 min-height: 100vh;
                 }
         } 
+    @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+        .main { 
+            background: url(imgs/main1copy.jpg) 90% 0% no-repeat scroll !important;
+            background-position:center;
+            background-size: cover;
+        }
+        .resume{   
+                background: url(imgs/woman.jpg) 75% 0% no-repeat scroll !important;
+                background-position:center;
+                background-size: cover;
+                min-height: 100vh;
+                }
+        } 
