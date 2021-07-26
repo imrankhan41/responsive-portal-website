@@ -8,47 +8,314 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/45c97595a9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
 </head>
 <body>
+    <!-- header section -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand brand-design" href="#">JOb Finder</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item nav-item-design">
+                    <a class="nav-link navlink-design" href="#home">Home</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                  <li class="nav-item nav-item-design ">
+                    <a class="nav-link navlink-design" href="#services">Services</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                  <li class="nav-item nav-item-design">
+                    <a class="nav-link navlink-design" href="#blog">Blog</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <li class="nav-item nav-item-design">
+                    <a class="nav-link navlink-design" href="#about">About</a>
+                  </li>
+                  <li class="nav-item nav-item-design">
+                    <a class="nav-link navlink-design" href="#contact">Contact</a>
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn0 mx-2">Register</button>
+                  <button class="btn1">Login</button>
                 </form>
               </div>
             </div>
           </nav>
     </header>
+    <!-- main section -->
+    <section class=" main">
+        <div class=" container py-5 my-5">
+            <div class="row py-5 my-5">
+                <div class="col-lg-7  py-5 my-5">
+                    <h1 class="mb-5">Find The Most exciting <br> Startup Jobs</h1>
+                    <input type="text" placeholder="Job Title Or Keyword">
+                    <button class="btn2">Find Job</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ceta py-5 ">
+        <div class="container-fluid py-5 text-center ">
+            <p class="ceta-tittle ">Featured tour packages</p>
+            <h1>Browse Top Packages</h1>
+            <div class="row py-5">
+                <div class="col-xxl-12 col-xl-12 col-lg-11 col-md-12 m-auto pt-3">
+                    <div class="row py-5">
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4  col-sm-6 pt-3">
+                            <div class="card py-3">
+                             <div class="card-body my-5">
+                                 <img src="imgs/Cate1.JPG" alt="" srcset="">
+                                 <h6>Design and Creative</h6>
+                                 <h6 class="ceta-tittle">(786)</h6>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                            <div class="card py-3">
+                             <div class="card-body my-5">
+                                 <img src="imgs/Cate8.JPG" alt="" srcset="">
+                                 <h6>Design and Creative</h6>
+                                 <h6 class="ceta-tittle">(786)</h6>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                            <div class="card py-3">
+                             <div class="card-body my-5">
+                                 <img src="imgs/Cate3.JPG" alt="" srcset="">
+                                 <h6>Design and Creative</h6>
+                                 <h6 class="ceta-tittle">(786)</h6>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                            <div class="card py-3">
+                             <div class="card-body my-5">
+                                 <img src="imgs/Cate4.JPG" alt="" srcset="">
+                                 <h6>Design and Creative</h6>
+                                 <h6 class="ceta-tittle">(786)</h6>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                            <div class="card py-3">
+                             <div class="card-body my-5">
+                                 <img src="imgs/Cate5.JPG" alt="" srcset="">
+                                 <h6>Design and Creative</h6>
+                                 <h6 class="ceta-tittle">(786)</h6>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                            <div class="card py-3">
+                             <div class="card-body my-5">
+                                 <img src="imgs/Cate6.JPG" alt="" srcset="">
+                                 <h6>Design and Creative</h6>
+                                 <h6 class="ceta-tittle">(786)</h6>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                            <div class="card py-3">
+                             <div class="card-body my-5">
+                                 <img src="imgs/Cate7.JPG" alt="" srcset="">
+                                 <h6>Design and Creative</h6>
+                                 <h6 class="ceta-tittle">(786)</h6>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                            <div class="card py-3">
+                             <div class="card-body my-5">
+                                 <img src="imgs/Cate2.JPG" alt="" srcset="">
+                                 <h6>Design and Creative</h6>
+                                 <h6 class="ceta-tittle">(786)</h6>
+                             </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row pt-3 ">
+                        <div class="col-lg-5 m-auto">
+                            <button class="btn3">BROWSE ALL SECTION</button>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- resume section -->
+    <section class="resume py-5  ">
+        <div class="container py-5 my-5">
+            <div class="row py-5 text-center text-white m-auto m-5">
+                <div class="col-lg-10 m-5">
+                    <p>FEATURED TOUR PACKAGES</p>
+                    <h1>Make a differences with your online resumes!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <button class="btn3">UPLOAD YOUR CV</button>
+                </div>
+            </div> 
+        </div>
+        
+    </section>
+    <!-- section-about-work -->
+    <section class="work py-5">
+        <div class="container py-5 my-5">
+            <div class="row  my-5">
+                <div class="col-lg-7">
+                    <p class="ceta-tittle py-3">WHAT WE ARE DOING</p>
+                    <h1 class="my-5">24k Talented people are getting jobs</h1>
+                    <p class="fw-bold fs-4 my-4" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ipsum harum, labore placeat ea aperiam in eos consectetur </p>
+                  
+                    <p class="text-muted fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nesciunt, quo aspernatur, blanditiis animi non nemo fugiat, praesentium ipsam iusto eveniet quam voluptatem sed harum sint dignissimos. Doloremque eum quaerat iste porro    </p>
+                    <button class="btn4">POST A JOB</button>
+                </div>
+                <div class="col-lg-5">
+                    <img src="imgs/men.jpg" alt="" srcset="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- apply section -->
+    <section class="apply py-5">
+        <div class="container py-5 text-center">
+            <p class="ceta-tittle">Apply process</p>
+            <h1>How It Works</h1>
+            <div class="row py-5">
+                <div class="col-xxl-4 col-xl-4  col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="card p-5">
+                        <div class="card-body text-center">
+                            <div class="circle pt-3">
+                                <img src="imgs/cate4.JPG" alt="">
+                            </div>
+                            <h2>1.search a job</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi esse voluptates quod dolore libero !</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4  col-lg-4 col-md-6 col-sm-6 col-12 ">
+                    <div class="card p-5">
+                        <div class="card-body text-center">
+                            <div class="circle pt-3">
+                                <img src="imgs/cate3.JPG" alt="">
+                            </div>
+                            <h2>1.search a job</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi esse voluptates quod dolore libero !</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-4 col-xl-4  col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="card p-5">
+                        <div class="card-body text-center">
+                            <div class="circle pt-3">
+                                <img src="imgs/cate5.JPG" alt="">
+                            </div>
+                            <h2>1.search a job</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi esse voluptates quod dolore libero !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider section -->
+    <section class="slider py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-9 text-center m-auto">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="imgs/Capture.JPG" class="img-fluid  mb-4 avatar" alt="...">
+                            <h3>Margaret Thetcher</h3>
+                            <p class="mt-3 fs-5">Creative designer</p>
+                            <p class="slider-p text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eaque officiis fugiat neque similique a corrupti doloremque beatae? Dignissimos ducimus, odit totam, ipsum itaque nulla asperiores molestias nesciunt delectus explicabo quidem omnis impedit atque ab unde earum tenetur maxime aspernatur? Officia dolor commodi earum eligendi aperiam possimus totam iusto exercitationem eos,  </p>
+                            <button class="btn5">contact</button>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/car2.JPG" class="img-fluid  mb-4 avatar" alt="...">
+                            <h3>Margaret Thetcher</h3>
+                            <p class="mt-3 fs-5">Creative designer</p>
+                            <p class="slider-p text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eaque officiis fugiat neque similique a corrupti doloremque beatae? Dignissimos ducimus, odit totam, ipsum itaque nulla asperiores molestias nesciunt delectus explicabo quidem omnis impedit atque ab unde earum tenetur maxime aspernatur? Officia dolor commodi earum eligendi aperiam possimus totam iusto exercitationem eos,  </p>
+                            <button class="btn5">contact</button>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imgs/Capture.JPG" class="img-fluid  mb-4 avatar" alt="...">
+                            <h3>Margaret Thetcher</h3>
+                            <p class="mt-3 fs-5">Creative designer</p>
+                            <p class="slider-p text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eaque officiis fugiat neque similique a corrupti doloremque beatae? Dignissimos ducimus, odit totam, ipsum itaque nulla asperiores molestias nesciunt delectus explicabo quidem omnis impedit atque ab unde earum tenetur maxime aspernatur? Officia dolor commodi earum eligendi aperiam possimus totam iusto exercitationem eos,  </p>
+                            <button class="btn5">contact</button>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+<div class="footer py-5">
+    <div class="container py-5">
+        <div class="row py-5 ">
+            <div class="col-xxl-9 col-xl-10 col-lg-11 col-md-12 col-sm-12 col-12 m-auto mb-5">
+                <div class="row">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <h2 class="py-5">About Us</h2>
+                        <p>adipisicing elit. Maxime quod magni quisquamLorem ipsum dolor sit amet consectetur </p>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <h2 class="py-5">Contact Us</h2>
+                        <p >Address :This is our permanent address</p>
+                        <p >address:287-Manjil road,Dahak-1215</p>
+                        <p  class=" link pt-3">Email:imrahdhhh@gmail.com</p>
+                        <p  class=" link">Phone:+88061484848</p>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <h2 class="py-5">Important Link</h2>
+                        <p class=" link">View project</p>
+                        <p class=" link">Contact Us</p>
+                        <p class=" link">Testomonials</p>
+                        <p class=" link">Properties</p>
+                        <p class=" link">Support</p>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <h2 class="py-5">Newsletter</h2>
+                        <p class="pb-3">pisicing elit. Maxime quod magni quisquamLorem <br> ipsum dolor sit amet consectetur</p>
+                        
+                        <input  type="text " placeholder="Enter Your Email">
+                        <button class="btn6"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+                    
+               
+            </div>
+            <hr>
+            <p>copyright <i class="far fa-copyright"></i> reserved by 2021 and this website made by <span class="text-danger">imran</span></p>
+        </div>
+    </div>
+    
+</div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
